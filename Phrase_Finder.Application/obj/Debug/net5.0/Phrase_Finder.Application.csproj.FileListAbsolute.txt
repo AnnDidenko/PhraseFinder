@@ -1,0 +1,14 @@
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder.Application\obj\Debug\net5.0\Phrase_Finder.Application.csproj.AssemblyReference.cache
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder.Application\obj\Debug\net5.0\Phrase_Finder.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder.Application\obj\Debug\net5.0\Phrase_Finder.Application.AssemblyInfoInputs.cache
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder.Application\obj\Debug\net5.0\Phrase_Finder.Application.AssemblyInfo.cs
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder.Application\obj\Debug\net5.0\Phrase_Finder.Application.csproj.CoreCompileInputs.cache
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder.Application\bin\Debug\net5.0\Phrase_Finder.Application.deps.json
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder.Application\bin\Debug\net5.0\Phrase_Finder.Application.dll
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder.Application\bin\Debug\net5.0\ref\Phrase_Finder.Application.dll
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder.Application\bin\Debug\net5.0\Phrase_Finder.Application.pdb
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder.Application\obj\Debug\net5.0\Phrase_Finder.Application.dll
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder.Application\obj\Debug\net5.0\ref\Phrase_Finder.Application.dll
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder.Application\obj\Debug\net5.0\Phrase_Finder.Application.pdb
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder.Application\bin\Debug\net5.0\Phrase_Finder.Domain.dll
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder.Application\bin\Debug\net5.0\Phrase_Finder.Domain.pdb
