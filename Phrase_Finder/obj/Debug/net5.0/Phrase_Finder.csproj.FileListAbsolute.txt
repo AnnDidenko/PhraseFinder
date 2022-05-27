@@ -90,3 +90,11 @@ C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder\bin\Debug\net5.0\AutoMap
 C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\anndi\source\repos\Phrase_Finder\Phrase_Finder\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

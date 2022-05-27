@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Phrase_Finder.Domain.Entities
@@ -12,5 +13,20 @@ namespace Phrase_Finder.Domain.Entities
         public string Url { get; set; }
         public string Subtitles { get; set; }
         public string YouTubeVideoId { get; set; }
+
+        public override bool Equals(object obj)
+        {
+            return Equals(obj as Video);
+        }
+
+        public bool Equals(Video video)
+        {
+            return Id == video.Id;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Name, YouTubeVideoId);
+        }
     }
 }

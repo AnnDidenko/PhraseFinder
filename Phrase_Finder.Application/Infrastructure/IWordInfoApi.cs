@@ -9,9 +9,9 @@ namespace Phrase_Finder.Application.Infrastructure
     public interface IWordInfoApi
     {
         [Get("lemmas")]
-        Task<Dictionary<PartOfSpeech, string[]>> GetLemmas([Query] string word);
+        Task<Dictionary<object, string[]>> GetLemmas([Query] string word);
 
         [Get("inflections")]
-        Task<Dictionary<WordInflectionForm, string[]>> GetWordInflections([Query] string word);
+        Task<Dictionary<object, string[]>> GetWordInflections([Query] string word);
     }
 }

@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Phrase_Finder.Application.Infrastructure;
 using Phrase_Finder.Application.Services;
 using Phrase_Finder.Domain.Extensions;
@@ -13,9 +12,14 @@ namespace Phrase_Finder.Application.Extensions
         {
             services.AddDomainServices(connectionString);
 
+            services.AddScoped<PasswordHasher>();
             services.AddScoped<IWordInfoService, WordInfoService>();
             services.AddScoped<IVideoScrappingService, VideoScrappingService>();
             services.AddScoped<IVideosService, VideosService>();
+            services.AddScoped<IVideoSearchService, VideoSearchService>();
+            services.AddScoped<IDictionaryService, DictionaryService>();
+            services.AddScoped<IAuthService, AuthService>();
+
             services.AddRestEaseClient<IWordInfoApi>();
             services.AddRestEaseClient<ITEDApi>();
 

@@ -6,7 +6,7 @@ namespace Phrase_Finder.Application.Infrastructure
 {
     public interface IWordInfoService
     {
-        Task<Dictionary<PartOfSpeech, string[]>> GetLemmas(string word);
-        Task<Dictionary<WordInflectionForm, string[]>> GetWordInflections(string word);
+        Task<string[]> GetLemmas(string word);
+        Task<string[]> GetWordInflections(string word);
     }
 }

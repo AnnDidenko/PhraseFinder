@@ -1,5 +1,8 @@
-﻿namespace Phrase_Finder.Application.Models
+﻿using System;
+
+namespace Phrase_Finder.Application.Models
 {
+    [Serializable]
     public class VideoDto
     {
         public int Id { get; set; }

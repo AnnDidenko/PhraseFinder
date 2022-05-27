@@ -58,7 +58,7 @@ namespace Phrase_Finder.Jobs
 
         public async Task AddNewVideosInfo()
         {
-            int numberOfPages = await _videoScrappingService.GetPageCount(1);
+            int numberOfPages = 5; // await _videoScrappingService.GetPageCount(1);
 
             for (int i = 1; i <= numberOfPages; i++)
             {
@@ -106,7 +106,7 @@ namespace Phrase_Finder.Jobs
                             scope.ServiceProvider
                                 .GetRequiredService<IVideosService>();
 
-                        AddedVideos = _videosService.GetVideos().ToList();
+                        AddedVideos = _videosService.GetAllVideos().ToList();
 
                         await UpdateVideosWithoutYoutubeLinks();
                         await AddNewVideosInfo();
@@ -118,7 +118,7 @@ namespace Phrase_Finder.Jobs
                     Log.Error(ex.Message);
                 }
 
-                await Task.Delay(new TimeSpan(0, 0, 1, 0));
+                await Task.Delay(new TimeSpan(1, 0, 0, 0));
             }
             Log.Information("Scrapping of TED videos is ended");
         }

@@ -8,7 +8,7 @@ namespace Phrase_Finder.Application.Infrastructure
     {
         Task AddVideo(VideoDto videoDto);
         void DeleteVideo(VideoDto videoDto);
-        IEnumerable<VideoDto> GetVideos();
+        IEnumerable<VideoDto> GetAllVideos();
         void UpdateVideo(VideoDto videoDto);
     }
 }

@@ -13,6 +13,11 @@ namespace Phrase_Finder.Domain.Extensions
                 options => options.UseNpgsql(connectionString));
 
             services.AddScoped<IVideosRepository, VideosRepository>();
+            services.AddScoped<IDictionaryRepository, DictionaryRepository>();
+            services.AddScoped<IEnglishWordRepository, EnglishWordRepository>();
+            services.AddScoped<ITranslationalWordRepository, TranslationalWordRepository>();
+            services.AddScoped<ITranslationRepository, TranslationRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
 
             return services;
         }

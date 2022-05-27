@@ -24,18 +24,18 @@ namespace Phrase_Finder.Application.Services
         public async Task AddVideo(VideoDto videoDto)
         {
             Video video = _mapper.Map<VideoDto, Video>(videoDto);
-            await _videosRepository.AddVideo(video);
+            await _videosRepository.Add(video);
         }
 
         public void DeleteVideo(VideoDto videoDto)
         {
             Video video = _mapper.Map<VideoDto, Video>(videoDto);
-            _videosRepository.DeleteVideo(video);
+            _videosRepository.Delete(video);
         }
 
-        public IEnumerable<VideoDto> GetVideos()
+        public IEnumerable<VideoDto> GetAllVideos()
         {
-            List<Video> videos = _videosRepository.GetAllVideos()
+            List<Video> videos = _videosRepository.GetAll()
                                                   .ToList();
 
             return _mapper.Map<IEnumerable<Video>, IEnumerable<VideoDto>>(videos);
@@ -44,7 +44,7 @@ namespace Phrase_Finder.Application.Services
         public void UpdateVideo(VideoDto videoDto)
         {
             Video video = _mapper.Map<VideoDto, Video>(videoDto);
-            _videosRepository.UpdateVideo(video);
+            _videosRepository.Update(video);
         }
     }
 }

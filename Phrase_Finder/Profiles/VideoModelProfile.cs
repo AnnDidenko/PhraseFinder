@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using Phrase_Finder.Application.Models;
+using Phrase_Finder.Models;
+using System.Collections.Generic;
 
 namespace Phrase_Finder.Profiles
 {
@@ -7,8 +9,10 @@ namespace Phrase_Finder.Profiles
     {
         public VideoModelProfile()
         {
-            CreateMap<VideoModelProfile, VideoDto>()
+            CreateMap<VideoModel, VideoDto>()
                 .ReverseMap();
+
+            //CreateMap<Dictionary<VideoDto, string[]>, Dictionary<VideoModel, string[]>>();
         }
     }
 }
